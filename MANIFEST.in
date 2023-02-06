@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lims_samples_management *.css
+recursive-include lims_samples_management *.csv
+recursive-include lims_samples_management *.html
+recursive-include lims_samples_management *.ico
+recursive-include lims_samples_management *.js
+recursive-include lims_samples_management *.json
+recursive-include lims_samples_management *.md
+recursive-include lims_samples_management *.png
+recursive-include lims_samples_management *.py
+recursive-include lims_samples_management *.svg
+recursive-include lims_samples_management *.txt
+recursive-exclude lims_samples_management *.pyc
